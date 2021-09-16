@@ -1,0 +1,100 @@
+/*================================= 
+Nav Section Styling
+=================================*/
+#top-section {
+	display: flex;
+	padding: 1rem 0;
+	align-items: center;
+	justify-content: start;
+	background-color: $btn-bg-color;
+	p {
+		font-size: 16px;
+		color: $light-color;
+		font-weight: 400;
+		margin-bottom: 0;
+		font-family: $secondary-font;
+	}
+	img {
+		width: 22px;
+		height: 22px;
+	}
+	.mail {
+		margin: 0;
+		font-size: 16px;
+		color: $light-color;
+		font-weight: 400;
+		font-family: $secondary-font;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+nav.sticky {
+	transition: all 0.4s;
+}
+
+nav.sticky.is-sticky {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	padding: 5px 10px;
+	background-color: $btn-bg-color;
+}
+// .nav-bg {
+// 	background-color: $btn-bg-color;
+// }
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255, 255, 255);
+}
+
+.navbar {
+	padding: 20px 10px 0 10px;
+}
+
+.navbar-toggler {
+	border: 2px solid $light-color;
+}
+.nav-item {
+	padding: 6px;
+}
+.active .nav-link {
+	font-size: 18px;
+	border-radius: 48px;
+	font-weight: 400;
+	color: $light-color !important;
+	font-family: $secondary-font;
+	border: 1px solid $light-color !important;
+	text-transform: uppercase;
+	background-color: $btn-bg-color;
+	transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+	font-size: 18px;
+	color: $primary-color;
+	text-transform: uppercase;
+	font-weight: 400;
+	border: 1px solid transparent;
+	font-family: $secondary-font;
+	padding-right: 1.5rem !important;
+	padding-left: 1.5rem !important;
+	transition: all 0.5s ease;
+
+	&:hover {
+		border: 1px solid $light-color;
+		border-radius: 48px;
+		color: $light-color !important;
+		background-color: $btn-bg-color;
+	}
+}
+
+.navbar-toggler {
+	border: 2px solid $dark-color;
+}
+.display-not {
+	display: none;
+}
