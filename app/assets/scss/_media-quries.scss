@@ -1,0 +1,298 @@
+/*================================= 
+Media Queries Styling
+=================================*/
+@media only screen and (max-width: 1450px) {
+}
+@media only screen and (max-width: 1367px) {
+}
+@media only screen and (max-width: 1150px) {
+}
+@media only screen and (max-width: 1024px) {
+	.navbar-nav .nav-link {
+		font-size: 15px;
+	}
+	.nav-item {
+		padding: 0px;
+	}
+	#home {
+		.content-setting {
+			padding: 132px 0 140px 0;
+		}
+	}
+	#about {
+		.welcome-heading {
+			font-size: calc(1.225rem + 4.5vw);
+		}
+	}
+	#great {
+		.great-heading {
+			font-size: calc(1.225rem + 4.5vw);
+		}
+	}
+	#yoga-session {
+		.banner .yoga-text {
+			font-size: 38px;
+		}
+	}
+	footer {
+		.card-bg {
+			padding: 15px;
+			.card-text {
+				font-size: 14px;
+			}
+			.social-border {
+				margin: 4px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 993px) {
+	.media-nav-center {
+		text-align: center;
+	}
+	.nav-item {
+		padding: 5px;
+	}
+}
+@media only screen and (max-width: 890px) {
+	#great {
+		.card-position {
+			left: 0;
+		}
+	}
+	#yoga-session {
+		.banner .yoga-text {
+			font-size: 24px;
+		}
+	}
+}
+@media only screen and (max-width: 801px) {
+}
+@media only screen and (max-width: 769px) {
+	#about {
+		.circle-position {
+			transform: translateX(-57.4%);
+		}
+	}
+	#yoga-session {
+		.w-50 {
+			width: 80% !important;
+		}
+	}
+}
+@media only screen and (max-width: 760px) {
+}
+
+@media (max-width: 640px) {
+	#top-section {
+		justify-content: center;
+		padding: 15px 30px;
+		img {
+			width: 15px;
+			height: 15px;
+		}
+		.mail {
+			font-size: 14px;
+		}
+		p {
+			font-size: 14px;
+		}
+		a {
+			font-size: 15px;
+		}
+	}
+	#home {
+		.content-setting {
+			padding: 100px 0 90px 0;
+		}
+		.main-banner-desc {
+			font-size: 16px;
+		}
+		.btn-blog,
+		.btn-contact {
+			width: 150px;
+			height: 50px;
+			font-size: 15px;
+			line-height: 36px;
+		}
+	}
+	#about {
+		.circle-position {
+			transform: translateX(-53.4%);
+		}
+		.btn-about {
+			padding: 15px 55px;
+			border-radius: 50px;
+			font-size: 18px;
+		}
+	}
+	#great {
+		.great-desc {
+			font-size: 13px;
+		}
+		.great-heading {
+			font-size: calc(1.025rem + 4.5vw);
+		}
+		.card-bg {
+			width: 90%;
+		}
+		.card-position {
+			left: 20px;
+			bottom: 76px;
+		}
+		.card-heading {
+			font-size: 20px;
+		}
+	}
+
+	#yoga-session {
+		padding: 42px 22px 140px 22px;
+		.media-position {
+			position: relative;
+		}
+		.banner {
+			padding: 10px 30px;
+			.yoga-text {
+				font-size: 20px;
+			}
+		}
+		.position-left {
+			position: absolute;
+			left: 0;
+			bottom: -84px;
+		}
+		.position-right {
+			right: 0;
+		}
+	}
+	#routine {
+		.w-50 {
+			width: 88% !important;
+		}
+	}
+
+	footer .footer-bg-color .footer-text {
+		font-size: 15px;
+	}
+}
+@media (max-width: 540px) {
+	#contact {
+		.media-direction {
+			flex-direction: column;
+		}
+	}
+}
+@media only screen and (max-width: 415px) {
+}
+@media only screen and (max-width: 411px) {
+}
+@media only screen and (max-width: 398px) {
+	#about {
+		.circle-position {
+			transform: translateX(-53.4%);
+		}
+	}
+	#great {
+		.card-heading {
+			font-size: 15px;
+			line-height: 23px;
+		}
+		.card-desc {
+			font-size: 12px;
+			color: #141414;
+			line-height: 26px;
+		}
+	}
+}
+@media only screen and (max-width: 376px) {
+}
+@media only screen and (max-width: 361px) {
+	#about {
+		.circle-position {
+			transform: translateX(-52.4%);
+		}
+	}
+}
+@media only screen and (max-width: 321px) {
+}
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media only screen and (max-width: 1367px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 830px) and (orientation: landscape) {
+	#home {
+		.content-setting {
+			padding: 132px 0 140px 0;
+		}
+	}
+	#about {
+		.circle-position {
+			transform: translateX(-58.4%);
+		}
+	}
+}
+@media only screen and (max-width: 812px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+	#about {
+		.circle-position {
+			transform: translateX(-53.4%);
+		}
+	}
+	#great {
+		.great-desc {
+			font-size: 13px;
+		}
+		.great-heading {
+			font-size: calc(1.025rem + 4.5vw);
+		}
+		.card-bg {
+			width: 90%;
+		}
+		.card-position {
+			left: 20px;
+			bottom: 76px;
+		}
+		.card-heading {
+			font-size: 20px;
+		}
+	}
+
+	#yoga-session {
+		padding: 42px 22px 140px 22px;
+		.media-position {
+			position: relative;
+		}
+		.banner {
+			padding: 10px 30px;
+			.yoga-text {
+				font-size: 20px;
+			}
+		}
+		.position-left {
+			position: absolute;
+			left: 0;
+			bottom: -84px;
+		}
+		.position-right {
+			right: 0;
+		}
+	}
+	#routine {
+		.w-50 {
+			width: 88% !important;
+		}
+	}
+}
+@media only screen and (max-width: 736px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 732px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 668px) and (orientation: landscape) {
+}
+@media only screen and (max-width: 641px) and (orientation: landscape) {
+}

@@ -1,0 +1,87 @@
+#contact {
+	form {
+		::placeholder {
+			font-size: 15px;
+			color: $primary-color;
+			font-weight: 500;
+			text-transform: uppercase;
+			font-family: $secondary-font;
+		}
+		.input-control {
+			width: 100%;
+			padding: 18px 18px;
+			border-radius: 34px;
+			border: 2px solid rgb(221, 221, 221);
+			background-color: rgb(244, 244, 244);
+		}
+		.text-control {
+			width: 100%;
+			padding: 18px 18px;
+			border-radius: 34px;
+			resize: none;
+			border: 2px solid rgb(221, 221, 221);
+			background-color: rgb(244, 244, 244);
+		}
+		.btn-position {
+			position: absolute;
+			right: 25px;
+			bottom: 30px;
+		}
+		.btn-send {
+			font-size: 18px;
+			color: $light-color;
+			font-weight: 500;
+			padding: 12px 55px;
+			font-family: $secondary-font;
+			border-radius: 26px;
+			text-transform: capitalize;
+			border: 1px solid $light-color;
+			background-color: $btn-bg-color;
+			box-shadow: 7px 12.124px 18px 0px rgba(248, 131, 121, 0.5),
+				inset 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+		}
+	}
+	.heading-text {
+		font-size: 50px;
+		color: $btn-bg-color;
+		font-weight: 600;
+		text-transform: capitalize;
+		font-family: $primary-font;
+	}
+	.heading-desc {
+		font-size: 18px;
+		color: $dark-color;
+		font-weight: 400;
+		font-family: $secondary-font;
+	}
+	.text {
+		font-size: 22px;
+		color: $dark-color;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-family: $primary-font;
+	}
+	.contact-details {
+		font-size: 22px;
+		color: $dark-color;
+		font-weight: 500;
+		font-family: $secondary-font;
+	}
+	.margin-between {
+		margin: 30px;
+	}
+	.social-border {
+		padding: 5px;
+		border-radius: 5px;
+		margin: 5px;
+		width: 30px;
+		height: 30px;
+		@include flex-align;
+		border: 1px solid $dark-color;
+		.img-size {
+			width: 16px;
+			height: 16px;
+		}
+	}
+}

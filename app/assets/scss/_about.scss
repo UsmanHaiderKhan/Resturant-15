@@ -1,0 +1,224 @@
+#about {
+	padding: 60px 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.circle-position {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		transform: translateX(-53.4%);
+	}
+	.img-setting {
+		z-index: 9;
+		position: relative;
+		margin-top: 55px;
+	}
+	.welcome-heading {
+		@include rfs(80px);
+		color: $primary-color;
+		text-align: center;
+		text-transform: capitalize;
+		font-family: $primary-font;
+	}
+	.btn-about {
+		padding: 25px 85px;
+		border: 1px solid $light-color;
+		border-radius: 50px;
+		color: $light-color;
+		font-size: 24px;
+		text-transform: capitalize;
+		font-family: $secondary-font;
+		background-color: rgb(255, 154, 102);
+		transition: all 0.5s ease-in-out;
+		&:hover {
+			box-shadow: 7px 12.124px 18px 0px rgba(248, 131, 121, 0.5),
+				inset 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+		}
+	}
+	.move {
+		animation: spin_7254 7.6s linear infinite;
+		transform-origin: 50% 50%;
+	}
+
+	@keyframes spin_7254 {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+}
+#great {
+	padding: 70px 0 0px 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.img-styling {
+		border-radius: 20px;
+		border: 3px solid $light-color;
+		box-shadow: 2.5px 4.33px 46px 0px rgba(248, 131, 121, 0.54);
+	}
+	.great-heading {
+		@include rfs(80px);
+		color: $primary-color;
+		text-align: center;
+		text-transform: capitalize;
+		font-family: $primary-font;
+	}
+	.great-desc {
+		font-size: 16px;
+		color: $primary-color;
+		font-weight: 400;
+		line-height: 32px;
+		font-family: $secondary-font;
+	}
+	.card-position {
+		position: relative;
+		bottom: 125px;
+		left: 137px;
+	}
+	.card-bg {
+		width: 100%;
+		padding: 20px;
+		border-radius: 20px;
+		background-color: $btn-bg-color;
+		border: 1px solid rgb(212, 212, 212);
+		box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.28);
+	}
+
+	.card-heading {
+		font-size: 24px;
+		color: $dark-color;
+		line-height: 33px;
+		font-family: $primary-font;
+	}
+	.card-desc {
+		font-size: 16px;
+		color: $dark-color;
+		line-height: 32px;
+		font-family: $secondary-font;
+	}
+}
+
+#yoga-session {
+	padding: 140px 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	.position-left {
+		position: relative;
+		left: 6%;
+		z-index: 9;
+	}
+	.position-right {
+		position: relative;
+		right: 6%;
+	}
+	.banner {
+		width: 100%;
+		padding: 40px 50px;
+		border-radius: 20px;
+		background-position: center;
+		background-repeat: no-repeat;
+		border: 2px solid $light-color;
+		background-color: $secondary-color;
+		box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.28);
+		.yoga-text {
+			font-size: 45px;
+			color: $dark-color;
+			text-transform: capitalize;
+			font-family: $primary-font;
+		}
+	}
+	.img-style {
+		border-radius: 20px;
+		border: 3px solid $light-color;
+		box-shadow: 2.5px 4.33px 46px 0px rgba(248, 131, 121, 0.54);
+	}
+}
+#routine {
+	padding: 60px 0;
+	.routine-heading {
+		@include rfs(50px);
+		color: $primary-color;
+		text-align: center;
+		text-transform: capitalize;
+		font-family: $primary-font;
+	}
+	.routine-text {
+		font-size: 28px;
+		color: $dark-color;
+		font-style: italic;
+		text-align: center;
+		font-family: $primary-font;
+	}
+}
+footer {
+	.card-bg {
+		padding: 28px;
+		height: 100%;
+		border-radius: 20px;
+		background-color: $light-color;
+		transition: all 0.5s ease-out;
+		box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.25);
+		a {
+			color: $dark-color;
+		}
+		&:hover {
+			background-color: $secondary-color;
+			p {
+				color: $light-color;
+			}
+			a {
+				text-decoration: none;
+				color: $light-color;
+			}
+			.social-border {
+				border-color: $light-color;
+				img {
+					filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(156deg) brightness(102%)
+						contrast(100%);
+				}
+			}
+		}
+		.card-text {
+			font-size: 18px;
+			color: $dark-color;
+			text-transform: capitalize;
+			font-weight: 500;
+			text-align: center;
+			margin: 0;
+			font-family: $secondary-font;
+		}
+		.social-border {
+			padding: 5px;
+			border-radius: 5px;
+			margin: 5px;
+			width: 30px;
+			height: 30px;
+			@include flex-align;
+			border: 1px solid $dark-color;
+			.img-size {
+				width: 16px;
+				height: 16px;
+			}
+		}
+	}
+
+	.footer-bg-color {
+		padding: 28px;
+		background-color: $dark-color;
+
+		.footer-text {
+			font-size: 18px;
+			color: $light-color;
+			font-weight: 600;
+			margin: 0;
+			@include flex-align;
+			text-transform: uppercase;
+			font-family: $secondary-font;
+		}
+	}
+}
