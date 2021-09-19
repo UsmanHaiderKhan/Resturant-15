@@ -539,9 +539,6 @@ nav nav.sticky.is-sticky {
   padding: 5px 10px;
   background-color: #ff9a66; }
 
-nav .navbar-dark .navbar-nav .nav-link {
-  color: white; }
-
 nav .navbar {
   padding: 20px 10px 0 10px; }
 
@@ -562,11 +559,11 @@ nav .active .nav-link {
     left: 50%;
     right: 0;
     transform: translate(-50%, 0);
-    color: #ffffff; }
+    color: #d89b64 !important; }
 
 nav .navbar-nav .nav-link {
   font-size: 18px;
-  color: #d89b64;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
   font-family: "rubik-regular";
@@ -581,3 +578,37 @@ nav .navbar-toggler {
 
 nav .display-not {
   display: none; }
+
+/*================================= 
+Home Section Styling
+=================================*/
+#home {
+  width: 100%;
+  padding: 50px 0 50px 0;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-image: url(../images/hero/bg-img.png); }
+  #home .main-banner-text {
+    font-size: 3.125rem;
+    color: #d89b64;
+    text-transform: capitalize;
+    font-family: "Abel"; }
+    @media (max-width: 1200px) {
+      #home .main-banner-text {
+        font-size: calc(1.4375rem + 2.25vw) ; } }
+  #home .content-setting {
+    padding: 100px 0 0px 0; }
+    #home .content-setting img {
+      width: 90%; }
+  #home .btn-book-table {
+    border: 1px solid #3a4356;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 2.5px 4.33px 5px 0px #3a4356;
+    width: 198px;
+    height: 60px;
+    border-radius: 0;
+    font-size: 16px;
+    color: #d89b64;
+    font-family: "rubik-medium";
+    text-transform: uppercase; }

@@ -15,9 +15,6 @@ nav{
 		padding: 5px 10px;
 		background-color: $btn-bg-color;
 	}
-	.navbar-dark .navbar-nav .nav-link {
-		color: rgb(255, 255, 255);
-	}
 	.navbar {
 		padding: 20px 10px 0 10px;
 	}
@@ -38,12 +35,12 @@ nav{
 			left: 50%;
 			right: 0;
 			transform: translate(-50%, 0);
-			color: $light-color;
+			color: $secondary-color !important;
 		}
 	}
 	.navbar-nav .nav-link {
 		font-size: 18px;
-		color: $secondary-color;
+		color: $light-color;
 		text-transform: uppercase;
 		font-weight: 400;
 		font-family: $secondary-font-regular;

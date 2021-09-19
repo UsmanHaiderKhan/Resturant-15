@@ -4,45 +4,38 @@ Home Section Styling
 
 #home {
 	width: 100%;
-	// margin-top: -6.2em;
+	padding: 50px 0 50px 0;
 	background-size: cover !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
-
+    background-image: url(../images/hero/bg-img.png);
 	.main-banner-text {
 		@include rfs(50px);
-		color: $primary-color;
+		color: $secondary-color;
 		text-transform: capitalize;
 		font-family: $primary-font;
 	}
-	.main-banner-desc {
-		font-size: 18px;
-		color: $light-color;
-		font-weight: 400;
-		font-family: $secondary-font;
-	}
-
 	.content-setting {
-		padding: 165px 0 160px 0;
+	 padding: 100px 0 0px 0;
+	 img{
+		 width: 90%;
+	 }
 	}
-	.btn-blog {
-		@extend %btn-shared;
-		background-color: $btn-bg-color;
-		transition: all 0.5s ease-in-out;
-		&:hover {
-			box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3);
-		}
+	
+	.btn-book-table {
+		border: 1px solid #3a4356;
+		background-color: rgba(255, 255, 255, 0);
+		box-shadow: inset 2.5px 4.33px 5px 0px #3a4356;
+		width: 198px;
+		height: 60px;
+		border-radius: 0;
+		font-size: 16px;
+		color: $secondary-color;
+		font-family: $secondary-font-medium;
+		text-transform: uppercase;
 	}
-	.btn-contact {
-		@extend %btn-shared;
-		background-color: $primary-color;
-		transition: all 0.5s ease-in-out;
-		&:hover {
-			box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.3);
-		}
-	}
-
-	// CSS Animation Slider
+	  
+	// CSS Animation Slider 'AA'
 	// .owl-item.active {
 	// 	.item {
 	// 		.main-banner-text {
