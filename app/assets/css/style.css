@@ -612,3 +612,17 @@ Home Section Styling
     color: #d89b64;
     font-family: "rubik-medium";
     text-transform: uppercase; }
+  #home .right-arrow {
+    position: absolute;
+    right: 4%;
+    z-index: 22;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer; }
+  #home .left-arrow {
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 22;
+    cursor: pointer; }

@@ -34,7 +34,58 @@ Home Section Styling
 		font-family: $secondary-font-medium;
 		text-transform: uppercase;
 	}
-	  
+	// .owl-nav {
+	// 	display: none;
+	// }
+	// .owl-theme .owl-nav.disabled + .owl-dots {
+	// 	position: absolute;
+	// 	top: 50%;
+	// 	right: 8%;
+	// 	z-index: 9999;
+	// 	transform: translateY(-50%);
+	// 	margin-top: -30px;
+	// 	-webkit-transform: translateY(-50%);
+	// 	-moz-transform: translateY(-50%);
+	// 	-ms-transform: translateY(-50%);
+	// 	-o-transform: translateY(-50%);
+	// }
+
+	// .owl-theme .owl-dots .owl-dot.active span,
+	// .owl-theme .owl-dots .owl-dot:hover span {
+	// 	width: 27px;
+	// 	height: 27px;
+	// 	border-radius: 50%;
+	// 	border: 5px solid $primary-color;
+	// 	background-color: $light-color;
+	// }
+	// .owl-theme .owl-dots .owl-dot span {
+	// 	width: 27px;
+	// 	height: 27px;
+	// 	border-radius: 50%;
+	// 	border: 5px solid $light-color;
+	// 	background-color: $primary-color;
+	// }
+	// .owl-theme .owl-dots .owl-dot {
+	// 	display: flex;
+	// 	margin: 20px 0;
+	// }
+	.right-arrow {
+		position: absolute;
+		right: 4%;
+		z-index: 22;
+		top: 50%;
+		transform: translate(0, -50%);
+		cursor: pointer;
+	}
+	.left-arrow {
+		position: absolute;
+		left: 4%;
+		top: 50%;
+		transform: translate(0, -50%);
+		z-index: 22;
+		cursor: pointer;
+	}
+
 	// CSS Animation Slider 'AA'
 	// .owl-item.active {
 	// 	.item {
