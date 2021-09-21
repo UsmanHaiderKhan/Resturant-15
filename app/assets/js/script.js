@@ -145,7 +145,7 @@ $(function () {
 		mouseDrag: true,
 		margin: 0,
 		smartSpeed: 2000,
-		dots: false,
+		dots: true,
 		nav: true,
 		slideBy: 1,
 		items: 1,
