@@ -607,7 +607,7 @@ Home Section Styling
   #home .btn-book-table {
     border: 1px solid #3a4356;
     background-color: rgba(255, 255, 255, 0);
-    box-shadow: inset 2.5px 4.33px 5px 0px #3a4356;
+    box-shadow: inset 0px 2px 4px 2px #3a4356;
     width: 198px;
     height: 60px;
     border-radius: 0;
@@ -659,3 +659,62 @@ Home Section Styling
     transform: translate(0, -50%);
     z-index: 22;
     cursor: pointer; }
+
+/*================================= 
+Media Queries Styling
+=================================*/
+@media only screen and (max-width: 769px) {
+  #home .main-banner-text {
+    font-size: 35px; } }
+
+@media only screen and (max-width: 640px) {
+  #home .content-setting img {
+    width: 55%; }
+  #home .btn-book-table {
+    width: 135px;
+    height: 45px;
+    font-size: 12px; }
+  #home .media-mt {
+    margin-top: 4%; }
+  #home .owl-dots {
+    right: 12%;
+    top: 64%; }
+  #home .media-center {
+    text-align: center; }
+    #home .media-center div {
+      margin-top: 10px; } }
+
+@media only screen and (max-width: 415px) {
+  #home .content-setting img {
+    width: 55%; }
+  #home .btn-book-table {
+    width: 135px;
+    height: 45px;
+    font-size: 12px; }
+  #home .owl-dots {
+    display: none; }
+  #home .media-mt {
+    margin-top: 4%; }
+  #home .media-center {
+    text-align: center; }
+    #home .media-center div {
+      margin-top: 10px; } }
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media only screen and (max-width: 830px) and (orientation: landscape) {
+  #home .content-setting img {
+    width: 55%; }
+  #home .btn-book-table {
+    width: 135px;
+    height: 45px;
+    font-size: 12px; }
+  #home .owl-dots {
+    display: none; }
+  #home .media-mt {
+    margin-top: 4%; }
+  #home .media-center {
+    text-align: center; }
+    #home .media-center div {
+      margin-top: 10px; }
+  #home .main-banner-text {
+    font-size: 35px; } }

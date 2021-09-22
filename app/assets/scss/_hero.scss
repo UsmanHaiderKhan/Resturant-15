@@ -28,7 +28,7 @@ Home Section Styling
 	.btn-book-table {
 		border: 1px solid #3a4356;
 		background-color: rgba(255, 255, 255, 0);
-		box-shadow: inset 2.5px 4.33px 5px 0px #3a4356;
+		box-shadow: inset 0px 2px 4px 2px #3a4356;
 		width: 198px;
 		height: 60px;
 		border-radius: 0;
@@ -53,8 +53,6 @@ Home Section Styling
 			left: 9px;
 			margin-top: 28px;
 		}
-	
-
 	.owl-dots{
 		counter-reset: dots;
 		position: absolute;
@@ -71,46 +69,11 @@ Home Section Styling
 	.owl-carousel .owl-nav button.owl-next, 
 	.owl-carousel .owl-nav button.owl-prev, 
 	.owl-carousel button.owl-dot {
-		
 		margin-top: 100%;
 		border: none;
 		display: block;
 		padding: 0!important;
-	
-
 	}
-	// .owl-theme .owl-nav.disabled + .owl-dots {
-	// 	position: absolute;
-	// 	top: 50%;
-	// 	right: 8%;
-	// 	z-index: 9999;
-	// 	transform: translateY(-50%);
-	// 	margin-top: -30px;
-	// 	-webkit-transform: translateY(-50%);
-	// 	-moz-transform: translateY(-50%);
-	// 	-ms-transform: translateY(-50%);
-	// 	-o-transform: translateY(-50%);
-	// }
-
-	// .owl-theme .owl-dots .owl-dot.active span,
-	// .owl-theme .owl-dots .owl-dot:hover span {
-	// 	width: 27px;
-	// 	height: 27px;
-	// 	border-radius: 50%;
-	// 	border: 5px solid $primary-color;
-	// 	background-color: $light-color;
-	// }
-	// .owl-theme .owl-dots .owl-dot span {
-	// 	width: 27px;
-	// 	height: 27px;
-	// 	border-radius: 50%;
-	// 	border: 5px solid $light-color;
-	// 	background-color: $primary-color;
-	// }
-	// .owl-theme .owl-dots .owl-dot {
-	// 	display: flex;
-	// 	margin: 20px 0;
-	// }
 	.right-arrow {
 		position: absolute;
 		right: 4%;

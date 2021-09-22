@@ -300,3 +300,15 @@ $('[data-toggle="sticky-onscroll"]').each(function () {
 	// On page load
 	stickyToggle(sticky, stickyWrapper, $(window));
 });
+/*===================== Navbar Smooth ======================*/
+$(function () {
+	$(window).scroll(function () {
+		var scroll = $(window).scrollTop();
+		if (scroll >= 100) {
+			$("nav").addClass("nav-bg-color color");
+
+		} else {
+			$("nav").removeClass("nav-bg-color color");
+		}
+	});
+});
