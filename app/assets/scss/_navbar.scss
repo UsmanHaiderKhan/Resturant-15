@@ -1,6 +1,12 @@
 /*================================= 
 		Nav Section Styling
 =================================*/
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255,255,255); 
+}
+.color{
+	background-color: $primary-color !important;
+}
 nav{
 	nav.sticky {
 		transition: all 0.4s;
@@ -58,5 +64,7 @@ nav{
 	.display-not {
 		display: none;
 	}
+	
+	
 	
 }
