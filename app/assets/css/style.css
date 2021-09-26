@@ -526,6 +526,12 @@ button:focus {
 /*================================= 
 		Nav Section Styling
 =================================*/
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.color {
+  background-color: #161c29 !important; }
+
 nav nav.sticky {
   transition: all 0.4s; }
 
@@ -663,9 +669,11 @@ Home Section Styling
 #about {
   margin-top: 44px; }
   #about .image-wrapper {
-    border: 5px solid #d89b64; }
+    border: 8px solid #d89b64; }
+    #about .image-wrapper img {
+      height: 60vh; }
   #about .text {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     color: #d89b64;
     font-family: "Abel";
@@ -680,13 +688,15 @@ Home Section Styling
     font-family: "rubik-medium"; }
   #about .card-position {
     position: absolute;
-    top: 38%;
+    top: 39.3%;
     left: 50%;
     right: 0;
     transform: translate(-50%, -50%); }
+    #about .card-position .card {
+      border-radius: 0; }
     #about .card-position .card-border {
       border: 1px solid #161c29;
-      padding: 20px; }
+      padding: 28px; }
 
 /*================================= 
 Media Queries Styling
