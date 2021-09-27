@@ -701,9 +701,39 @@ Home Section Styling
 /*================================= 
 Media Queries Styling
 =================================*/
+@media only screen and (max-width: 1367px) {
+  #about .image-wrapper img {
+    height: 45vh; }
+  #about .card-position {
+    position: absolute;
+    top: 40%;
+    left: 50%; } }
+
+@media only screen and (max-width: 1024px) {
+  #about .image-wrapper img {
+    height: 34vh; }
+  #about .card-position {
+    top: 40%; } }
+
 @media only screen and (max-width: 769px) {
   #home .main-banner-text {
-    font-size: 35px; } }
+    font-size: 35px; }
+  #about .text {
+    font-size: 30px; }
+  #about .text-desc {
+    font-size: 15px; }
+  #about .number {
+    font-size: 22px; }
+  #about .media-none {
+    display: none; }
+  #about .image-wrapper img {
+    width: auto;
+    height: auto; }
+  #about .card-position {
+    top: 41%; }
+    #about .card-position .card-border {
+      border: 1px solid #161c29;
+      padding: 15px; } }
 
 @media only screen and (max-width: 640px) {
   #home .content-setting img {
