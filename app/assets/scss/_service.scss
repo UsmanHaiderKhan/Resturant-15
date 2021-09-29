@@ -1,0 +1,28 @@
+#service{
+    background-color: $primary-color;
+    padding: 4%;
+    margin-top: 60px;
+    .service-heading{
+        font-size: 40px;
+        font-weight: bold;
+        color: $secondary-color;
+        font-family: $primary-font;
+    }
+    .service-description{
+        font-size: 18px;
+        color: $light-color;
+        font-family: $secondary-font-regular;
+    }
+    .slider-heading{
+        font-size: 17.556px;
+        color: $light-color;
+        text-align: center;
+        position: absolute;
+        text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.75);
+        -moz-transform: matrix( 2.27842832362306,0,0,2.27842832362304,0,0);
+        -webkit-transform: matrix( 2.27842832362306,0,0,2.27842832362304,0,0);
+        -ms-transform: matrix( 2.27842832362306,0,0,2.27842832362304,0,0);
+    }
+   
+         
+}
