@@ -698,6 +698,20 @@ Home Section Styling
       border: 1px solid #161c29;
       padding: 28px; }
 
+#service {
+  background-color: #161c29;
+  padding: 4%;
+  margin-top: 60px; }
+  #service .service-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #d89b64;
+    font-family: "Abel"; }
+  #service .service-description {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "rubik-regular"; }
+
 /*================================= 
 Media Queries Styling
 =================================*/
