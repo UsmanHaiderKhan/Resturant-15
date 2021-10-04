@@ -1,0 +1,58 @@
+#gallery{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/welcome/back-img.gif);
+    .heading-text{
+        font-size: 40px;
+        color: $secondary-color;
+        text-transform: capitalize;
+        font-family: $primary-font;
+    }
+    .desc-text{
+        font-size: 18px;
+        color: $light-color;
+        font-family: $secondary-font-regular;
+    }
+
+    .main-wrapper {
+        position: relative;
+        width: 100%;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color:rgba($primary-color, 0.5) ;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+      }
+      
+      .main-wrapper:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+}
