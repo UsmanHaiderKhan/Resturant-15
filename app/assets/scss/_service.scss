@@ -21,43 +21,43 @@ position: relative;
     left: 50%;
     transform: translate(-50%, 0);
     .styled-border::before,
-    .styled-border::after {
+    .styled-border::after,
+    span::before,span::after
+    {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background: yellow;
+    width: 3px;
+    height: 42px;
+    background-color: $light-color ;
     transition: 1s;
     mix-blend-mode: hue;
     }
     .styled-border::before {
-    top: -2px;
-    left: -2px;
+        top: -31px;
+        left: -32px;
     }
     .styled-border::after {
-    top: -2px;
-    right: -2px;
+        top: -31px;
+        right: -32px;
     }
     span::before {
-    bottom: -2px;
-    left: -2px;
+        top: 55px;
+        left: -32px;
     }
     span::after {
-    bottom: -2px;
-    right: -2px;
+        top: 55px;
+        right: -32px;
     }
 
-// a:hover:before,
-// a:hover:after,
-// a:hover span::before,
-// a:hover span::after {
-//   /* background-color: white; */
-//   width: calc(180px / 2);
-//   height: calc(50px / 2);
-// }
-    .styled-border{
-       
-    }
+.styled-border:hover:before,
+.styled-border:hover:after,
+.styled-border:hover span::before,
+.styled-border:hover span::after {
+  background-color: white; 
+  width: calc(180px / 2);
+  height: calc(50px / 2);
+}
+
     .slider-heading{
         font-size: 20px;
         color: $light-color !important;
