@@ -13,16 +13,30 @@
         color: $light-color;
         font-family: $secondary-font-regular;
     }
+    .main-wrapper{
+position: relative;
+.text-position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
     .slider-heading{
-        font-size: 17.556px;
-        color: $light-color;
+        font-size: 16px;
+        color: $light-color !important;
         text-align: center;
-        position: absolute;
         text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.75);
         -moz-transform: matrix( 2.27842832362306,0,0,2.27842832362304,0,0);
         -webkit-transform: matrix( 2.27842832362306,0,0,2.27842832362304,0,0);
         -ms-transform: matrix( 2.27842832362306,0,0,2.27842832362304,0,0);
     }
+    .slider-desc{
+        font-size: 18px;
+        color: $light-color;
+        text-align: center;
+        font-family: $secondary-font-medium;
+    }
+}
+}
    
          
 }

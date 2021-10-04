@@ -711,6 +711,26 @@ Home Section Styling
     font-size: 18px;
     color: #ffffff;
     font-family: "rubik-regular"; }
+  #service .main-wrapper {
+    position: relative; }
+    #service .main-wrapper .text-position {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 0); }
+      #service .main-wrapper .text-position .slider-heading {
+        font-size: 16px;
+        color: #ffffff !important;
+        text-align: center;
+        text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.75);
+        -moz-transform: matrix(2.27843, 0, 0, 2.27843, 0, 0);
+        -webkit-transform: matrix(2.27843, 0, 0, 2.27843, 0, 0);
+        -ms-transform: matrix(2.27843, 0, 0, 2.27843, 0, 0); }
+      #service .main-wrapper .text-position .slider-desc {
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        font-family: "rubik-medium"; }
 
 /*================================= 
 Media Queries Styling
