@@ -719,26 +719,34 @@ Home Section Styling
       left: 50%;
       transform: translate(-50%, 0); }
       #service .main-wrapper .text-position .styled-border::before,
-      #service .main-wrapper .text-position .styled-border::after {
+      #service .main-wrapper .text-position .styled-border::after,
+      #service .main-wrapper .text-position span::before, #service .main-wrapper .text-position span::after {
         content: "";
         position: absolute;
-        width: 10px;
-        height: 10px;
-        background: yellow;
+        width: 3px;
+        height: 42px;
+        background-color: #ffffff;
         transition: 1s;
         mix-blend-mode: hue; }
       #service .main-wrapper .text-position .styled-border::before {
-        top: -2px;
-        left: -2px; }
+        top: -31px;
+        left: -32px; }
       #service .main-wrapper .text-position .styled-border::after {
-        top: -2px;
-        right: -2px; }
+        top: -31px;
+        right: -32px; }
       #service .main-wrapper .text-position span::before {
-        bottom: -2px;
-        left: -2px; }
+        top: 55px;
+        left: -32px; }
       #service .main-wrapper .text-position span::after {
-        bottom: -2px;
-        right: -2px; }
+        top: 55px;
+        right: -32px; }
+      #service .main-wrapper .text-position .styled-border:hover:before,
+      #service .main-wrapper .text-position .styled-border:hover:after,
+      #service .main-wrapper .text-position .styled-border:hover span::before,
+      #service .main-wrapper .text-position .styled-border:hover span::after {
+        background-color: white;
+        width: calc(180px / 2);
+        height: calc(50px / 2); }
       #service .main-wrapper .text-position .slider-heading {
         font-size: 20px;
         color: #ffffff !important;
@@ -755,6 +763,52 @@ Home Section Styling
         text-align: center;
         visibility: hidden;
         font-family: "rubik-medium"; }
+
+#gallery {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/welcome/back-img.gif); }
+  #gallery .heading-text {
+    font-size: 40px;
+    color: #d89b64;
+    text-transform: capitalize;
+    font-family: "Abel"; }
+  #gallery .desc-text {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "rubik-regular"; }
+  #gallery .main-wrapper {
+    position: relative;
+    width: 100%; }
+  #gallery .image {
+    display: block;
+    width: 100%;
+    height: auto; }
+  #gallery .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(22, 28, 41, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease; }
+  #gallery .main-wrapper:hover .overlay {
+    bottom: 0;
+    height: 100%; }
+  #gallery .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 /*================================= 
 Media Queries Styling
