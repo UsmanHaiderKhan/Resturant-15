@@ -718,18 +718,42 @@ Home Section Styling
       top: 50%;
       left: 50%;
       transform: translate(-50%, 0); }
+      #service .main-wrapper .text-position .styled-border::before,
+      #service .main-wrapper .text-position .styled-border::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: yellow;
+        transition: 1s;
+        mix-blend-mode: hue; }
+      #service .main-wrapper .text-position .styled-border::before {
+        top: -2px;
+        left: -2px; }
+      #service .main-wrapper .text-position .styled-border::after {
+        top: -2px;
+        right: -2px; }
+      #service .main-wrapper .text-position span::before {
+        bottom: -2px;
+        left: -2px; }
+      #service .main-wrapper .text-position span::after {
+        bottom: -2px;
+        right: -2px; }
       #service .main-wrapper .text-position .slider-heading {
-        font-size: 16px;
+        font-size: 20px;
         color: #ffffff !important;
         text-align: center;
+        font-family: "Abel" !important;
         text-shadow: 1px 1.732px 0px rgba(0, 0, 0, 0.75);
         -moz-transform: matrix(2.27843, 0, 0, 2.27843, 0, 0);
         -webkit-transform: matrix(2.27843, 0, 0, 2.27843, 0, 0);
         -ms-transform: matrix(2.27843, 0, 0, 2.27843, 0, 0); }
       #service .main-wrapper .text-position .slider-desc {
-        font-size: 18px;
+        margin-top: 20px;
+        font-size: 15px;
         color: #ffffff;
         text-align: center;
+        visibility: hidden;
         font-family: "rubik-medium"; }
 
 /*================================= 
