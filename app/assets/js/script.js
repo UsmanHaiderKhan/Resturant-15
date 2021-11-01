@@ -225,41 +225,18 @@ $(function () {
 	});
 });
 /*===================== Another Load More Script ======================*/
+
 $(function () {
-	$(".no-display")
-		.slice(0, 6)
+	$(".none-display")
+		.slice(0, 12)
 		.show();
 	$("#load-more").on("click", function (e) {
 		e.preventDefault();
-		$(".no-display:hidden")
-			.slice(0, 3)
-			.slideDown();
-		if ($(".no-display:hidden").length == 0) {
-			$("#load-more").html("No More Any Event ");
-			$("#load-more").css("width", "230px");
-			$("#load-more").css("border", "2px solid $primary-color");
-			$("#load-more").css("box-shadow", " 2.5px 4.33px 7px 0px rgba(0, 0, 0, 0.75);");
-			// $(".btn-load-border").fadeOut("slow");
-		}
-		$("html,body").animate(
-			{
-				scrollTop: $(this).offset().center
-			},
-			1500
-		);
-	});
-});
-$(function () {
-	$(".none-display")
-		.slice(0, 8)
-		.show();
-	$("#load-another").on("click", function (e) {
-		e.preventDefault();
 		$(".none-display:hidden")
-			.slice(0, 2)
+			.slice(0, 4)
 			.slideDown();
 		if ($(".none-display:hidden").length == 0) {
-			$("#load-another").html("No More Pics");
+			$("#load-more").html("No More Pics");
 			// $(".btn-load-blog").fadeOut("slow");
 		}
 		$("html,body").animate(
@@ -312,3 +289,26 @@ $(function () {
 		}
 	});
 });
+/*===================== Library Filter ======================*/
+// $(document).ready(function () {
+$(".filter-button").click(function () {
+	var value = $(this).attr('data-filter');
+
+	if (value == "all") {
+		//$('.filter').removeClass('hidden');
+		$('.filter').show('1000');
+	}
+	else {
+		//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+		//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+		$(".filter").not('.' + value).hide('3000');
+		$('.filter').filter('.' + value).show('3000');
+
+	}
+});
+
+if ($(".filter-button").removeClass("active")) {
+	$(this).removeClass("active");
+}
+$(this).addClass("active");
+// });

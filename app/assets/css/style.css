@@ -765,7 +765,6 @@ Home Section Styling
         font-family: "rubik-medium"; }
 
 #gallery {
-  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -809,6 +808,34 @@ Home Section Styling
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center; }
+  #gallery .filter-button {
+    background-color: transparent;
+    color: #d89b64;
+    font-family: "rubik-regular";
+    font-size: 18px;
+    margin: 6px;
+    text-transform: uppercase; }
+    #gallery .filter-button:hover {
+      font-size: 18px;
+      color: #161c29;
+      font-family: "rubik-medium"; }
+    #gallery .filter-button:active {
+      color: #161c29 !important; }
+  #gallery .active {
+    color: #161c29 !important; }
+  #gallery .none-display {
+    display: none; }
+  #gallery .btn-load-more {
+    width: 198px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 0;
+    color: #161c29;
+    text-transform: uppercase;
+    font-family: "rubik-medium";
+    border: 1px solid #263045;
+    background-color: #ffffff;
+    box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5); }
 
 /*================================= 
 Media Queries Styling
