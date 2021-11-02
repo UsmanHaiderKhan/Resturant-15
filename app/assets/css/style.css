@@ -37,11 +37,11 @@ hr {
   margin-top: 63px; }
 
 .section-desc {
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 0;
   text-align: center;
-  color: #ffffff;
-  letter-spacing: 0.4px;
+  color: #161c29;
+  letter-spacing: 0.5px;
   line-height: 25px;
   font-family: "rubik-regular"; }
 
@@ -836,6 +836,21 @@ Home Section Styling
     border: 1px solid #263045;
     background-color: #ffffff;
     box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5); }
+
+#our-team .slider-wrapper {
+  border: 1px solid #161c29; }
+  #our-team .slider-wrapper .secondary-bg {
+    background-color: #161c29; }
+    #our-team .slider-wrapper .secondary-bg .member-name {
+      font-size: 36px;
+      text-align: center;
+      color: #ffffff;
+      font-family: "Abel"; }
+    #our-team .slider-wrapper .secondary-bg .designation-text {
+      font-size: 18px;
+      text-align: center;
+      color: #d89b64;
+      font-family: "rubik-regular"; }
 
 /*================================= 
 Media Queries Styling
