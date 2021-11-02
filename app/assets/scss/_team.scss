@@ -1,0 +1,20 @@
+#our-team{
+    .slider-wrapper{
+        border: 1px solid $primary-color;
+    .secondary-bg{
+       background-color: $primary-color;
+        .member-name{
+            font-size: 36px;
+            text-align: center;
+            color: $light-color;
+            font-family: $primary-font;
+        }
+        .designation-text{
+            font-size: 18px;
+            text-align: center;
+            color: $secondary-color;
+            font-family: $secondary-font-regular;
+        }
+     }
+  }
+}
