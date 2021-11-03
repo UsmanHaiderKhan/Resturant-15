@@ -1,20 +1,45 @@
 #our-team{
     .slider-wrapper{
-        border: 1px solid $primary-color;
-    .secondary-bg{
-       background-color: $primary-color;
-        .member-name{
-            font-size: 36px;
-            text-align: center;
-            color: $light-color;
-            font-family: $primary-font;
+        border: 2px solid $primary-color;
+        .secondary-bg{
+        background-color: $primary-color;
+            .member-name{
+                font-size: 20px;
+                margin: 0;
+                text-align: center;
+                color: $light-color;
+                font-family: $primary-font;
+            }
+            .designation-text{
+                font-size: 13px;
+                margin: 0;
+                text-align: center;
+                color: $secondary-color;
+                font-family: $secondary-font-regular;
+            }
         }
-        .designation-text{
-            font-size: 18px;
-            text-align: center;
-            color: $secondary-color;
-            font-family: $secondary-font-regular;
+        &:hover{
+            border: 2px solid $secondary-color;
+          .secondary-bg{
+             background-color: $secondary-color;
+            .member-name{
+                color: $primary-color;
+            }
+            .designation-text{
+                color: $light-color;
+            }
+          }
         }
-     }
-  }
-}
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 27px;
+        height: 9px;
+        margin: 5px 7px;
+        background: #8c8f95;
+       border-radius: 0;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: $primary-color;
+    }
+ }
+ 

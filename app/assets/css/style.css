@@ -765,10 +765,13 @@ Home Section Styling
         font-family: "rubik-medium"; }
 
 #gallery {
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../images/welcome/back-img.gif); }
+  background-image: url("../images/gallery/back-img.gif"); }
   #gallery .heading-text {
     font-size: 40px;
     color: #d89b64;
@@ -838,19 +841,39 @@ Home Section Styling
     box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5); }
 
 #our-team .slider-wrapper {
-  border: 1px solid #161c29; }
+  border: 2px solid #161c29; }
   #our-team .slider-wrapper .secondary-bg {
     background-color: #161c29; }
     #our-team .slider-wrapper .secondary-bg .member-name {
-      font-size: 36px;
+      font-size: 20px;
+      margin: 0;
       text-align: center;
       color: #ffffff;
       font-family: "Abel"; }
     #our-team .slider-wrapper .secondary-bg .designation-text {
-      font-size: 18px;
+      font-size: 13px;
+      margin: 0;
       text-align: center;
       color: #d89b64;
       font-family: "rubik-regular"; }
+  #our-team .slider-wrapper:hover {
+    border: 2px solid #d89b64; }
+    #our-team .slider-wrapper:hover .secondary-bg {
+      background-color: #d89b64; }
+      #our-team .slider-wrapper:hover .secondary-bg .member-name {
+        color: #161c29; }
+      #our-team .slider-wrapper:hover .secondary-bg .designation-text {
+        color: #ffffff; }
+
+#our-team .owl-theme .owl-dots .owl-dot span {
+  width: 27px;
+  height: 9px;
+  margin: 5px 7px;
+  background: #8c8f95;
+  border-radius: 0; }
+
+#our-team .owl-theme .owl-dots .owl-dot.active span, #our-team .owl-theme .owl-dots .owl-dot:hover span {
+  background: #161c29; }
 
 /*================================= 
 Media Queries Styling
