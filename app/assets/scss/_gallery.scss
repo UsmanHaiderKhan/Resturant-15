@@ -1,8 +1,11 @@
 #gallery{
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../images/welcome/back-img.gif);
+    background-image: url('../images/gallery/back-img.gif');
     .heading-text{
         font-size: 40px;
         color: $secondary-color;
