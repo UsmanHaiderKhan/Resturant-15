@@ -139,16 +139,15 @@ $(function () {
 $(function () {
 	var owl = $("#owl-one");
 	owl.owlCarousel({
-		autoplay: true,
+		autoplay: false,
 		// center: true,
 		loop: true,
 		mouseDrag: true,
-		margin: 0,
-		smartSpeed: 2000,
+		margin: 30,
 		dots: true,
 		nav: true,
-		slideBy: 1,
-		items: 1,
+		slideBy: 4,
+		items: 4,
 		animateIn: "fadeIn",
 		animateOut: "fadeOut",
 		responsiveClass: true,
@@ -160,18 +159,17 @@ $(function () {
 				items: 1,
 				autoplay: true
 			},
-
 			768: {
-				items: 1
+				items: 2
 			},
 			830: {
-				items: 1
+				items: 3
 			},
 			1000: {
-				item: 1
+				item: 3
 			},
 			1365: {
-				item: 1
+				item: 4
 			}
 		}
 	});
@@ -184,7 +182,7 @@ $(function () {
 	});
 });
 $(function () {
-	var owls = $(".owl-carousel");
+	var owls = $("#owl-carousel");
 	owls.owlCarousel({
 		loop: true,
 		autoplay: false,
