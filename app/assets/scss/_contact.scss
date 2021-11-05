@@ -26,15 +26,19 @@
 		padding: 16px;
 		border: 1px solid $primary-color;
 		background-color: rgba(216, 155, 100, 0);
-	    box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5);
-	}
+		box-shadow:
+		 inset 0px 2px 4px 0px rgba(221, 167, 120, 0.4), 
+		inset 0px -3px 6px 0px #06080e;
+     }
 	.text-control{
 		width: 100%;
 		resize: none;
 		padding: 16px;
 		border: 1px solid $primary-color;
 		background-color: rgba(216, 155, 100, 0);
-		box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5);
+		box-shadow:
+		 inset 0px 2px 4px 0px rgba(221, 167, 120, 0.4), 
+		inset 0px -3px 6px 0px #06080e;
 	}
 	::placeholder{
 		font-size: 12px;
@@ -46,27 +50,16 @@
 		width: 178px;
 		height: 53px;
 		font-size: 18px;
+		border-radius: 0;
 		color: $light-color;
 		text-transform: uppercase;
 		font-family: $secondary-font-medium;
 		border: 1px solid $primary-color;
 		background-color: rgb(216, 155, 100);
-		box-shadow: 2.5px 4.33px 5px 0px rgba(216, 155, 100, 0.5);
-	}
-	.Rectangle_14 {
-		border-style: solid;
-		border-width: 1px;
-		border-color: rgb(38, 48, 69);
-		background-color: rgba(216, 155, 100, 0);
+		box-shadow:inset 0px -2px 6px 1px rgba(0,0,0, 0.5);
 		
-		position: absolute;
-		left: 400px;
-		top: 5065px;
-		width: 268px;
-		height: 53px;
-		z-index: 112;
-	  }
-	  
+	}
+	
 	  
 }
 
